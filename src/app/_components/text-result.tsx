@@ -31,7 +31,7 @@ export const TextResult = ({
         <button
           onClick={handleCopyText}
           data-copied={copied}
-          className="bg-violet-500 dark:bg-violet-800 hover:bg-violet-600 dark:hover:bg-violet-700 w-40 data-[copied=true]:bg-emerald-500 transition-colors px-2 py-1 mt-2 rounded-md font-semibold"
+          className="bg-violet-500 dark:bg-violet-800 hover:bg-violet-600 dark:hover:bg-violet-700 w-40 data-[copied=true]:bg-emerald-600 dark:data-[copied=true]:bg-emerald-500 transition-colors px-2 py-1 mt-2 rounded-md font-semibold"
         >
           {copied ? "Copiado!" : "Copiar texto"}
         </button>
