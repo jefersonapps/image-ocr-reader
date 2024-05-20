@@ -72,9 +72,8 @@ export const ImageUpload: React.FC<ImageUploadProps> = ({ onImageUpload }) => {
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
       onDrop={handleDrop}
-      className={`bg-blue-100 dark:bg-zinc-900 p-10 border-2 border-violet-600 border-dashed gap-4 flex flex-col items-center justify-center rounded-lg transition-colors duration-200 ${
-        isDraggingOver ? "bg-blue-200 dark:bg-zinc-700" : ""
-      }`}
+      data-dragging={isDraggingOver}
+      className="bg-blue-100 dark:bg-zinc-900 data-[dragging=true]:bg-blue-200 data-[dragging=true]:dark:bg-zinc-700 p-10 border-2 border-violet-600 border-dashed gap-4 flex flex-col items-center justify-center rounded-lg transition-colors duration-200"
     >
       <span className="font-medium">
         Arraste e solte ou cole uma imagem aqui pressionando{" "}
