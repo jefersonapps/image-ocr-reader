@@ -1,8 +1,9 @@
 Este é um projeto [Next.js](https://nextjs.org/) que visa facilitar a extração do texto presente em imagens utilizando o tesseract.js.
 
-<div style="display: flex; justify-content: center; align-items: center;">
-  <img src="/src/app/favicon.ico" alt="Pré-Visualização" />
-</div>
+<p align="center">
+    <img alt="lodo do app" height="128" src="/src/app/favicon.ico">
+    <h1 align="center">Image OCR Reader</h1>
+</p>
 
 ## Começando
 
